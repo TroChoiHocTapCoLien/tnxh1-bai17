@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest identifier="Baigiang_elearning_TNXH1-Bai17" version="1.0"
+  xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+  xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+  </metadata>
+  <organizations default="ORG_Baigiang_elearning_TNXH1-Bai17">
+    <organization identifier="ORG_Baigiang_elearning_TNXH1-Bai17">
+      <title>Tự nhiên và Xã hội 1 – Bài 17: Con vật quanh em</title>
+      <item identifier="ITEM_Baigiang_elearning_TNXH1-Bai17" identifierref="RES_Baigiang_elearning_TNXH1-Bai17" isvisible="true">
+        <title>Bài 17 – Con vật quanh em</title>
+        <adlcp:masteryscore>80</adlcp:masteryscore>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="RES_Baigiang_elearning_TNXH1-Bai17" type="webcontent" adlcp:scormtype="sco" href="index.html">
+      <file href="audio/fb_chinhxac.mp3"/>
+      <file href="audio/fb_dungroi.mp3"/>
+      <file href="audio/fb_wrong.mp3"/>
+      <file href="audio/k15.mp3"/>
+      <file href="audio/m18_1.mp3"/>
+      <file href="audio/m8_1.mp3"/>
+      <file href="audio/m8_2.mp3"/>
+      <file href="audio/m8_3.mp3"/>
+      <file href="audio/n_ca.mp3"/>
+      <file href="audio/n_ech.mp3"/>
+      <file href="audio/n_ong.mp3"/>
+      <file href="audio/p08.mp3"/>
+      <file href="audio/p10.mp3"/>
+      <file href="audio/p15.mp3"/>
+      <file href="audio/p18.mp3"/>
+      <file href="audio/p23.mp3"/>
+      <file href="audio/p26.mp3"/>
+      <file href="audio/q18_1.mp3"/>
+      <file href="audio/q8_1.mp3"/>
+      <file href="audio/q8_2.mp3"/>
+      <file href="audio/q8_3.mp3"/>
+      <file href="audio/quiz/fail.mp3"/>
+      <file href="audio/quiz/pass.mp3"/>
+      <file href="audio/quiz/q1.mp3"/>
+      <file href="audio/quiz/q2.mp3"/>
+      <file href="audio/quiz/q3.mp3"/>
+      <file href="audio/quiz/q4.mp3"/>
+      <file href="audio/quiz/q5.mp3"/>
+      <file href="audio/s01.mp3"/>
+      <file href="audio/s02.mp3"/>
+      <file href="audio/s03.mp3"/>
+      <file href="audio/s04.mp3"/>
+      <file href="audio/s05.mp3"/>
+      <file href="audio/s06.mp3"/>
+      <file href="audio/s07.mp3"/>
+      <file href="audio/s08.mp3"/>
+      <file href="audio/s09.mp3"/>
+      <file href="audio/s10.mp3"/>
+      <file href="audio/s11.mp3"/>
+      <file href="audio/s12.mp3"/>
+      <file href="audio/s13.mp3"/>
+      <file href="audio/s14.mp3"/>
+      <file href="audio/s15.mp3"/>
+      <file href="audio/s16.mp3"/>
+      <file href="audio/s17.mp3"/>
+      <file href="audio/s18.mp3"/>
+      <file href="audio/s19.mp3"/>
+      <file href="audio/s20.mp3"/>
+      <file href="audio/s21.mp3"/>
+      <file href="audio/s22.mp3"/>
+      <file href="audio/s23.mp3"/>
+      <file href="audio/s24.mp3"/>
+      <file href="audio/s25.mp3"/>
+      <file href="audio/s26.mp3"/>
+      <file href="audio/s27.mp3"/>
+      <file href="audio/s28.mp3"/>
+      <file href="audio/s29.mp3"/>
+      <file href="audio/s30.mp3"/>
+      <file href="audio/s_bo.mp3"/>
+      <file href="audio/s_ca.mp3"/>
+      <file href="audio/s_chim.mp3"/>
+      <file href="audio/s_cho.mp3"/>
+      <file href="audio/s_ga.mp3"/>
+      <file href="audio/s_trau.mp3"/>
+      <file href="data.js"/>
+      <file href="fonts/Montserrat-Bold.ttf"/>
+      <file href="fonts/Roboto-Medium.ttf"/>
+      <file href="fonts/Roboto-Regular.ttf"/>
+      <file href="index.html"/>
+      <file href="player.css"/>
+      <file href="player.js"/>
+      <file href="slides/s01_0.jpg"/>
+      <file href="slides/s02_0.jpg"/>
+      <file href="slides/s02_1.jpg"/>
+      <file href="slides/s02_2.jpg"/>
+      <file href="slides/s02_3.jpg"/>
+      <file href="slides/s03_0.jpg"/>
+      <file href="slides/s03_1.jpg"/>
+      <file href="slides/s03_2.jpg"/>
+      <file href="slides/s03_3.jpg"/>
+      <file href="slides/s04_0.jpg"/>
+      <file href="slides/s05_0.jpg"/>
+      <file href="slides/s05_1.jpg"/>
+      <file href="slides/s05_2.jpg"/>
+      <file href="slides/s05_3.jpg"/>
+      <file href="slides/s05_4.jpg"/>
+      <file href="slides/s06_0.jpg"/>
+      <file href="slides/s06_1.jpg"/>
+      <file href="slides/s06_2.jpg"/>
+      <file href="slides/s07_0.jpg"/>
+      <file href="slides/s07_1.jpg"/>
+      <file href="slides/s07_2.jpg"/>
+      <file href="slides/s08_0.jpg"/>
+      <file href="slides/s09_0.jpg"/>
+      <file href="slides/s09_1.jpg"/>
+      <file href="slides/s10_0.jpg"/>
+      <file href="slides/s10_1.jpg"/>
+      <file href="slides/s11_0.jpg"/>
+      <file href="slides/s11_1.jpg"/>
+      <file href="slides/s12_0.jpg"/>
+      <file href="slides/s13_0.jpg"/>
+      <file href="slides/s13_1.jpg"/>
+      <file href="slides/s13_2.jpg"/>
+      <file href="slides/s13_3.jpg"/>
+      <file href="slides/s13_4.jpg"/>
+      <file href="slides/s14_0.jpg"/>
+      <file href="slides/s14_1.jpg"/>
+      <file href="slides/s14_2.jpg"/>
+      <file href="slides/s14_3.jpg"/>
+      <file href="slides/s14_4.jpg"/>
+      <file href="slides/s15_0.jpg"/>
+      <file href="slides/s16_0.jpg"/>
+      <file href="slides/s16_1.jpg"/>
+      <file href="slides/s16_2.jpg"/>
+      <file href="slides/s16_3.jpg"/>
+      <file href="slides/s16_4.jpg"/>
+      <file href="slides/s17_0.jpg"/>
+      <file href="slides/s17_1.jpg"/>
+      <file href="slides/s18_0.jpg"/>
+      <file href="slides/s19_0.jpg"/>
+      <file href="slides/s20_0.jpg"/>
+      <file href="slides/s20_1.jpg"/>
+      <file href="slides/s20_2.jpg"/>
+      <file href="slides/s20_3.jpg"/>
+      <file href="slides/s21_0.jpg"/>
+      <file href="slides/s21_1.jpg"/>
+      <file href="slides/s21_2.jpg"/>
+      <file href="slides/s21_3.jpg"/>
+      <file href="slides/s22_0.jpg"/>
+      <file href="slides/s22_1.jpg"/>
+      <file href="slides/s22_2.jpg"/>
+      <file href="slides/s22_3.jpg"/>
+      <file href="slides/s22_4.jpg"/>
+      <file href="slides/s22_5.jpg"/>
+      <file href="slides/s22_6.jpg"/>
+      <file href="slides/s23_0.jpg"/>
+      <file href="slides/s23_1.jpg"/>
+      <file href="slides/s24_0.jpg"/>
+      <file href="slides/s25_0.jpg"/>
+      <file href="slides/s25_1.jpg"/>
+      <file href="slides/s25_2.jpg"/>
+      <file href="slides/s25_3.jpg"/>
+      <file href="slides/s25_4.jpg"/>
+      <file href="slides/s26_0.jpg"/>
+      <file href="slides/s26_1.jpg"/>
+      <file href="slides/s27_0.jpg"/>
+      <file href="slides/s27_1.jpg"/>
+      <file href="slides/s27_2.jpg"/>
+      <file href="slides/s28_0.jpg"/>
+      <file href="slides/s28_1.jpg"/>
+      <file href="slides/s28_2.jpg"/>
+      <file href="slides/s28_3.jpg"/>
+      <file href="slides/s28_4.jpg"/>
+      <file href="slides/s29_0.jpg"/>
+      <file href="slides/s30_0.jpg"/>
+      <file href="sprites/a_cua.jpg"/>
+      <file href="sprites/a_ga.jpg"/>
+      <file href="sprites/a_kien.jpg"/>
+      <file href="sprites/a_tho.jpg"/>
+      <file href="sprites/a_tom.jpg"/>
+      <file href="sprites/a_trau.jpg"/>
+      <file href="sprites/m_ca.jpg"/>
+      <file href="sprites/m_ech.jpg"/>
+      <file href="sprites/m_ong.jpg"/>
+      <file href="sprites/s_bo.png"/>
+      <file href="sprites/s_ca.png"/>
+      <file href="sprites/s_chim.png"/>
+      <file href="sprites/s_cho.png"/>
+      <file href="sprites/s_ga.png"/>
+      <file href="sprites/s_trau.png"/>
+      <file href="themes.css"/>
+    </resource>
+  </resources>
+</manifest>

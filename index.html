@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bài giảng e-learning</title>
+<link rel="stylesheet" href="player.css?v=20261113024520">
+<link rel="stylesheet" href="themes.css?v=20261113024520">
+</head>
+<body>
+<div class="app" id="app">
+  <header class="top">
+    <button class="icon-btn menu-btn" id="menuBtn" aria-label="Mục lục" aria-expanded="false" aria-controls="menu">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+    <div class="brand">
+      <span class="kicker" id="brandKicker"></span>
+      <h1 id="brandTitle"></h1>
+    </div>
+    <div class="progress" aria-label="Tiến độ bài học">
+      <div class="bar"><i id="progressBar"></i></div>
+      <span id="counter"></span>
+    </div>
+  </header>
+
+  <aside class="menu" id="menu" aria-label="Mục lục">
+    <nav id="menuList"></nav>
+    <div class="menu-score" id="menuScore" hidden></div>
+  </aside>
+  <div class="scrim" id="scrim" hidden></div>
+
+  <main class="main">
+    <div class="stage-wrap">
+      <div class="stage" id="stage">
+        <img id="imgA" class="layer show" alt="">
+        <img id="imgB" class="layer" alt="">
+        <video id="video" class="vid" playsinline controls preload="metadata" hidden></video>
+        <!-- exercise layer (course.json "practice"): tap an answer, drag words into pots, type numbers -->
+        <div class="hotspots" id="hotspots" hidden><p class="fb" id="practiceFb" aria-live="polite"></p></div>
+        <section class="quiz" id="quiz" hidden aria-label="Bài kiểm tra"></section>
+        <section class="game" id="game" hidden aria-label="Trò chơi"></section>
+        <div class="start" id="start">
+          <div class="start-card">
+            <span class="kicker">Bài giảng e-learning</span>
+            <h2 id="startTitle"></h2>
+            <p id="startNote"></p>
+            <button class="primary" id="startBtn">Bắt đầu học</button>
+            <button class="ghost" id="restartBtn" hidden>Học lại từ đầu</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="controls" role="toolbar" aria-label="Điều khiển">
+      <button class="icon-btn" id="prevBtn" aria-label="Slide trước">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+      </button>
+      <button class="icon-btn" id="playBtn" aria-label="Phát / tạm dừng lời giảng">
+        <svg viewBox="0 0 24 24" class="i-play" aria-hidden="true"><path d="M7 4l13 8-13 8z" class="fill"/></svg>
+        <svg viewBox="0 0 24 24" class="i-pause" aria-hidden="true"><path d="M7 4h4v16H7zM14 4h4v16h-4z" class="fill"/></svg>
+      </button>
+      <button class="icon-btn" id="replayBtn" aria-label="Nghe lại slide này">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12a8 8 0 1 0 2.4-5.7M4 4v5h5"/></svg>
+      </button>
+      <div class="time">
+        <input type="range" id="seek" min="0" max="1000" value="0" aria-label="Vị trí lời giảng">
+        <span id="timeLabel">0:00 / 0:00</span>
+      </div>
+      <button class="icon-btn" id="muteBtn" aria-label="Tắt / bật tiếng">
+        <svg viewBox="0 0 24 24" class="i-vol" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4z" class="fill"/><path d="M16 9a4 4 0 0 1 0 6M18.5 6.5a7.5 7.5 0 0 1 0 11"/></svg>
+        <svg viewBox="0 0 24 24" class="i-mute" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4z" class="fill"/><path d="M16 9l5 6M21 9l-5 6"/></svg>
+      </button>
+      <button class="video-btn" id="videoBtn" hidden>▶ Xem video</button>
+      <label class="toggle" title="Tự chuyển slide khi hết lời giảng">
+        <input type="checkbox" id="autoNext"><span>Tự chuyển</span>
+      </label>
+      <button class="icon-btn" id="ccBtn" aria-label="Hiện / ẩn lời giảng" aria-pressed="true">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="M7 11h4M13 11h4M7 15h7"/></svg>
+      </button>
+      <button class="icon-btn" id="fsBtn" aria-label="Toàn màn hình">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg>
+      </button>
+      <button class="next" id="nextBtn">Tiếp <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
+    </div>
+
+    <section class="transcript" id="transcript" aria-live="polite">
+      <h2 id="slideTitle"></h2>
+      <p id="slideText"></p>
+    </section>
+  </main>
+</div>
+<audio id="audio" preload="auto"></audio>
+<script src="data.js?v=20261113024520"></script>
+<script src="player.js?v=20261113024520"></script>
+</body>
+</html>
